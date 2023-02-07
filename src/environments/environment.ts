@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyCK3aSEjHvXRk8uO0bOf2BTjKUDRpwuHUs",
+    authDomain: "tasks-unicauca.firebaseapp.com",
+    databaseUrl: 'https://tasks-unicauca-default-rtdb.firebaseio.com/',
+    projectId: "tasks-unicauca",
+    storageBucket: "tasks-unicauca.appspot.com",
+    messagingSenderId: "250545434419",
+    appId: "1:250545434419:web:3e40943b3dc7c36da3d846"
+  }
 };
 
 /*
